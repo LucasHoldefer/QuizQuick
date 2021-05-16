@@ -1,0 +1,77 @@
+body {
+   background-color:black; 
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+
+main {
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+button {
+   cursor: pointer;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+   color: white;
+}
+
+.container {
+   width: 40%;
+}
+
+.container #title {
+   text-align: center;
+}
+
+.container h1{
+   font-size: 3rem;
+   color: white;
+   font-weight: 600;
+
+}
+
+.container #buttons {
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+}
+
+.button {
+   width: 200px;
+   height: 50px;
+   margin-top: 10px;
+   display: block;
+   color: black;
+   background-color: white;
+   font-family: 'Poppins', sans-serif;
+   border: none;
+}
+
+
+
+.pointsText {
+   text-align: center;
+}
+
+.pointsText h2 {
+   color: white;
+   font-weight: 300;
+   font-size: 1.5rem;
+}
+
+#backToStart {
+   color: white;
+   text-align: center;
+}
+
+#backToStart:hover {
+   color: #ccc;
+}
